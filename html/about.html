@@ -3,24 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
   <title>Home</title>
-  <style>
-    nav {
-      background: #333;
-      padding: 10px;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
+  <!-- Main navigation -->
   <nav>
     <a href="home.html">Home</a>
     <a href="about.html">About</a>
@@ -28,7 +16,37 @@
     <a href="contact.html">Contact</a>
   </nav>
 
-  <h1>Welcome</h1>
-  <p>This is the about.</p>
+  <!-- Banner section -->
+  <div class="banner">
+    Temperature Logger System - About
+  </div>
+  <h1 style="text-align:center;">Background</h1>
+  <p>
+    This website provides information about the Temperature Logger System, including its design, implementation, and usage. The original project was developed as part of an IoT course at University of SouthEastern Norway.
+    And the main goal of the project was to create a system that could accurately measure and log temperature data from multiple rooms, store the data both locally and in the cloud, and provide remote access to the data.
+    In a future project project, this system would have a air heater installer to be able to control the temperature in a room based on the data measurements.
+  </p>
+  <!-- Image under subtabs -->
+  <img src="../images/Pi5.jpg" alt="System Diagram" class="content-image">
+
+  <!-- Page content -->
+  <h1 style="text-align:center;">Website</h1>
+
+  <ul style="text-align:left; max-width:800px; margin-bottom: 30px;">
+  <li>The website is designed to be responsive and accessible, ensuring that users can easily navigate and find the information they need about the Temperature Logger system.</li>
+    <li>Imported fonts from Google Fonts to enhance the visual appeal.</li>
+    <li>Consistent styling across all pages using an external CSS stylesheet.</li>
+    <li>Navigation bar for easy access to different sections of the website.</li>
+    <li>Banner section to highlight the title of the website.</li>
+    <li>Content images to visually represent the system and its components.</li>
+</ul>
+    <div class="image-row-big">
+  <img src="../images/style2.png" alt="Image 1">
+  <img src="../images/intro.png" alt="Image 2">
+  </div>
+<footer>
+  <p>Created and designed by Nikolai Nazifi - 30.11.2025</p>
+</footer>
+
 </body>
 </html>
