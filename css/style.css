@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat:wght@400;700&display=swap');
 
 /* Main navigation */
-/* Main navigation */
 nav {
   background: #333;
   padding: 10px;
@@ -20,7 +19,7 @@ nav a:hover {
 
 /* Banner styling */
 .banner {
-  background-image: url("../images/bannertemp.jpg"); /* <-- your banner image */
+  background-image: url("../images/bannertemp.jpg");
   background-size: cover;
   background-position: center;
   height: 200px;
